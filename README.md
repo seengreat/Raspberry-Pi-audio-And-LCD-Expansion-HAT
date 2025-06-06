@@ -33,12 +33,6 @@ After the installation is complete, reboot the Raspberry Pi. After installing th
 ```bash
 sudo reboot
 # Wait for the boot to complete
-sudo dkms status
-```
-If the output is similar to the following, it means the driver is loaded successfully:
-```plaintext
-pi@raspberrypi:~ $ sudo dkms status 
-wm8960-soundcard, 1.0, 4.19.58-v7l+, armv7l: installed
 ```
 
 #### 2.2.4 Sound Card Detection
